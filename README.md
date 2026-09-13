@@ -69,4 +69,3 @@ The production XGBoost model was evaluated on a held-out test set of **200,000 t
 * **F1-Score:** Provides a balance between precision and recall and is useful for comparing different classification thresholds.
 * **PR-AUC:** Particularly useful for highly imbalanced fraud datasets because it focuses on the model's ability to identify the minority fraud class.
 
-> **Note:** ROC-AUC was not included because it was not calculated during the model evaluation. No unverified metric has been added.
