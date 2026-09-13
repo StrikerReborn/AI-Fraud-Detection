@@ -28,10 +28,12 @@ The model identified a very high fraud probability and recommended blocking the 
 
 ![High Risk Prediction](images/high-risk.png)
 
-**Result:** HIGH → 
+**Result:** HIGH → BLOCK
+
+---
 
 ## 🏗️ System Architecture
 
 The system follows an end-to-end machine learning architecture connecting the user interface, REST API, feature engineering pipeline, XGBoost model, risk engine, SQL Server database, explainable AI, and Power BI analytics.
 
-![AI Fraud Detection Architecture](images/architecture.svg)
+![AI Fraud Detection Architecture](images/architecture.svg.png)
