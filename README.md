@@ -6,7 +6,7 @@ The system was tested with three different transaction-risk scenarios through th
 
 The model identified the transaction as low risk and recommended approval.
 
-![Low Risk Prediction](images/low-risk.png)
+![Low Risk Prediction](images/Low%20result.png)
 
 **Result:** LOW → APPROVE
 
@@ -16,7 +16,7 @@ The model identified the transaction as low risk and recommended approval.
 
 The model identified elevated fraud probability and recommended manual review.
 
-![Medium Risk Prediction](images/medium-risk.png)
+![Medium Risk Prediction](images/Medium%20result.png)
 
 **Result:** MEDIUM → REVIEW
 
@@ -26,11 +26,9 @@ The model identified elevated fraud probability and recommended manual review.
 
 The model identified a very high fraud probability and recommended blocking the transaction.
 
-![High Risk Prediction](images/high-risk.png)
+![High Risk Prediction](images/High%20result.png)
 
 **Result:** HIGH → BLOCK
-
----
 
 ## 🏗️ System Architecture
 
